@@ -4,6 +4,15 @@ A python loader for different use cases, the runner will also survive replica se
 sharded based off the _id.  This will allow the performance advisor as well as the profiler to show useful
 index recommendations based off the various use cases
 
+## Install
+```commandline
+$ git clone https://github.com/shawnbmccarthy/mongo_loader.git
+$ cd mongo_loader
+$ pip install -r requirements.txt
+```
+
+
+
 ## Usage
 
 ```commandline
